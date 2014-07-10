@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "transition-properties"
   ],
   "css-transition-properties": {
     "type": "git",

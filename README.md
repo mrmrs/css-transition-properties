@@ -32,7 +32,7 @@ or download the css on github and include in your project.
 .tp-b   { transition-property: bottom; }
 .tp-o   { transition-property: opacity; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .tp-n-ns   { transition-property: none; }
   .tp-all-ns { transition-property: all; }
   .tp-i-ns   { transition-property: inherit; }
@@ -47,7 +47,7 @@ or download the css on github and include in your project.
   .tp-o-ns   { transition-property: opacity; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .tp-n-m   { transition-property: none; }
   .tp-all-m { transition-property: all; }
   .tp-i-m   { transition-property: inherit; }
@@ -62,7 +62,7 @@ or download the css on github and include in your project.
   .tp-o-m   { transition-property: opacity; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .tp-n-l   { transition-property: none; }
   .tp-all-l { transition-property: all; }
   .tp-i-l   { transition-property: inherit; }

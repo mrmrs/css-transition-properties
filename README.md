@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-transition-properties)
 ## File Size
 
 2.2K transition-properties.css
-1.8K transition-properties.min.css
+1.8K transition-properties.min.css 
+318B minified and gzipped
 
 ## The Code
 ```

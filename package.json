@@ -1,7 +1,7 @@
 {
   "name": "css-transition-properties",
   "style": "transition-properties.css",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "http://github.com/mrmrs/css-transition-properties",
   "description": "Css module of single purpose classes for transition properties",
   "keywords": [

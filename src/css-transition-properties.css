@@ -16,18 +16,18 @@
 .tp-o   { transition-property: opacity; }
 
 @media screen and (min-width: 48em) {
-  .tp-n-ns   { transition-property: none; }
-  .tp-all-ns { transition-property: all; }
-  .tp-i-ns   { transition-property: inherit; }
-  .tp-c-ns   { transition-property: color; }
-  .tp-bc-ns  { transition-property: background-color; }
-  .tp-w-ns   { transition-property: width; }
-  .tp-h-ns   { transition-property: height; }
-  .tp-l-ns   { transition-property: left; }
-  .tp-r-ns   { transition-property: right; }
-  .tp-t-ns   { transition-property: top; }
-  .tp-b-ns   { transition-property: bottom; }
-  .tp-o-ns   { transition-property: opacity; }
+  .tp-n-s   { transition-property: none; }
+  .tp-all-s { transition-property: all; }
+  .tp-i-s   { transition-property: inherit; }
+  .tp-c-s   { transition-property: color; }
+  .tp-bc-s  { transition-property: background-color; }
+  .tp-w-s   { transition-property: width; }
+  .tp-h-s   { transition-property: height; }
+  .tp-l-s   { transition-property: left; }
+  .tp-r-s   { transition-property: right; }
+  .tp-t-s   { transition-property: top; }
+  .tp-b-s   { transition-property: bottom; }
+  .tp-o-s   { transition-property: opacity; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {

@@ -15,7 +15,7 @@
 .tp-b   { transition-property: bottom; }
 .tp-o   { transition-property: opacity; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .tp-n-s   { transition-property: none; }
   .tp-all-s { transition-property: all; }
   .tp-i-s   { transition-property: inherit; }
@@ -30,7 +30,7 @@
   .tp-o-s   { transition-property: opacity; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .tp-n-m   { transition-property: none; }
   .tp-all-m { transition-property: all; }
   .tp-i-m   { transition-property: inherit; }
@@ -45,7 +45,7 @@
   .tp-o-m   { transition-property: opacity; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .tp-n-l   { transition-property: none; }
   .tp-all-l { transition-property: all; }
   .tp-i-l   { transition-property: inherit; }

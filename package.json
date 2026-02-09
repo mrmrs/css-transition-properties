@@ -1,38 +1,44 @@
 {
   "name": "css-transition-properties",
-  "style": "transition-properties.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-transition-properties",
-  "description": "Css module of single purpose classes for transition properties",
+  "version": "2.0.0",
+  "description": "Functional CSS for transition-properties",
+  "style": "dist/transition-properties.css",
+  "main": "dist/transition-properties.css",
+  "exports": {
+    ".": "./dist/transition-properties.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "transition-properties"
+    "transition-properties",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-transition-properties": {
+  "homepage": "https://github.com/mrmrs/css-transition-properties",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-transition-properties.git"
+    "url": "https://github.com/mrmrs/css-transition-properties.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-transition-properties/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-transition-properties/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
